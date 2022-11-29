@@ -4,12 +4,31 @@
   
     
     <entry>
+      <title>My New Post</title>
+      <link href="/2022/11/25/My-New-Post/"/>
+      <url>/2022/11/25/My-New-Post/</url>
+      
+        <content type="html"><![CDATA[<h2 id="第一章">第一章</h2><h2 id="sss">sss</h2><h2 id="第二章">第二章</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/11/25/hello-world/"/>
       <url>/2022/11/25/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start">Quick Start</h2><h3 id="Create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
+      
+      <categories>
+          
+          <category> Hello World说明文档 </category>
+          
+      </categories>
       
       
     </entry>
@@ -17,6 +36,61 @@
     
   
   
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/ClockStyle.js"/>
+      <url>/js/ClockStyle.js</url>
+      
+        <content type="html"><![CDATA[setInterval((()=>{let e=Math.round(new Date("2022-11-25 00:00:00").getTime()/1e3),t=Math.round((new Date).getTime()/1e3)-e,i=new Array(0,0,0,0,0);var r=function(e){return e>9?e:"0"+e};t>=31536e3&&(i[0]=parseInt(t/31536e3),t%=31536e3),t>=86400&&(i[1]=parseInt(t/86400),t%=86400),t>=3600&&(i[2]=r(parseInt(t/3600)),t%=3600),t>=60&&(i[3]=r(parseInt(t/60)),t%=60),t>0&&(i[4]=r(t)),Number(i[2])<22&&Number(i[2])>7?currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='大佬带带我~'><div id='runtime'>🐟小站已经运行了"+(i[0]?i[0]+" 年 ":"  ")+i[1]+" 天 "+i[2]+" 小时 "+i[3]+" 分钟 "+i[4]+" 秒 </div>":currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>🐡小站已经运行了"+(i[0]?i[0]+"年":"")+i[1]+" 天 "+i[2]+" 小时 "+i[3]+" 分钟 "+i[4]+" 秒 </div>",document.getElementById("workboard").innerHTML=currentTimeHtml}),1e3);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[var arr=["#39c5bb","#f14747","#f1a247","#f1ee47","#b347f1","#1edbff","#ed709b","#5636ed"],idx=0;function changeColor(){const e=document.getElementsByTagName("html")[0].getAttribute("data-theme"),t=document.getElementById("site-name"),a=document.getElementById("site-title"),d=document.getElementById("site-subtitle"),o=document.getElementById("post-info"),n="#1e1e1ee0 1px 1px 1px";if("dark"==e){t&&(t.style.textShadow=arr[idx]+" 0 0 15px"),a&&(a.style.textShadow=arr[idx]+" 0 0 15px"),d&&(d.style.textShadow=arr[idx]+" 0 0 10px"),o&&(o.style.textShadow=arr[idx]+" 0 0 5px");try{document.getElementsByClassName("author-info__name")[0].style.textShadow=arr[idx]+" 0 0 12px",document.getElementsByClassName("author-info__description")[0].style.textShadow=arr[idx]+" 0 0 12px"}catch{}8==++idx&&(idx=0)}else{t&&(t.style.textShadow=n),a&&(a.style.textShadow=n),d&&(d.style.textShadow=n),o&&(o.style.textShadow=n);try{document.getElementsByClassName("author-info__name")[0].style.textShadow="",document.getElementsByClassName("author-info__description")[0].style.textShadow=""}catch{}}}window.onload=setInterval(changeColor,1200);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/articleRow.css"/>
+      <url>/css/articleRow.css</url>
+      
+        <content type="html"><![CDATA[#pagination{width:100%;margin:auto}[data-theme=dark] #nav .menus_items .menus_item .menus_item_child li a,[data-theme=dark] #nav .site-page,[data-theme=dark] #sidebar #sidebar-menus .menus_items .site-page{text-shadow:0 0 2px var(--theme-color)!important}#footer,#footer::before,#page-header,[data-theme=dark] #footer::before{background:0 0!important}#page-header::before,[data-theme=dark] #page-header::before{background-color:transparent!important}#aside-content>.card-widget.card-info{background:linear-gradient(-45deg,#e8d8b9,#eccec5,#a3e9eb,#bdbdf0,#eec1ea);box-shadow:0 0 5px #424444;position:relative;background-size:400% 400%;-webkit-animation:10s infinite Gradient;-moz-animation:10s infinite Gradient;animation:10s infinite Gradient!important}@-webkit-keyframes Gradient{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}@-moz-keyframes Gradient{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}@keyframes Gradient{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}[data-theme=dark] #aside-content>.card-widget.card-info{background:#191919ee}#aside-content>.card-widget.card-info>#card-info-btn{background-color:#3eb8be;border-radius:8px}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/universe.js"/>
+      <url>/js/universe.js</url>
+      
+        <content type="html"><![CDATA[function dark(){window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var t,i,e,n,s=.05,h=document.getElementById("universe"),a=!0,o="226,225,224",r=[],d=document.getElementById("body-wrap");function c(){t=window.innerWidth,i=window.innerHeight,e=.216*t,h.setAttribute("width",t),h.setAttribute("height",i)}function f(){n.clearRect(0,0,t,i);for(var e=r.length,s=0;s<e;s++){var h=r[s];h.move(),h.fadeIn(),h.fadeOut(),h.draw()}}function u(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!a&&m(10),this.x=y(0,t-10),this.y=y(0,i),this.r=y(1.1,2.6),this.dx=y(s,6*s)+(this.comet+1-1)*s*y(50,120)+.1,this.dy=-y(s,6*s)-(this.comet+1-1)*s*y(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=y(.2,1-.4*(this.comet+1-1)),this.do=y(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>t||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(n.beginPath(),this.giant)n.fillStyle="rgba(180,184,240,"+this.opacity+")",n.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){n.fillStyle="rgba("+o+","+this.opacity+")",n.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)n.fillStyle="rgba("+o+","+(this.opacity-this.opacity/20*t)+")",n.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),n.fill()}else n.fillStyle="rgba(226,225,142,"+this.opacity+")",n.rect(this.x,this.y,this.r,this.r);n.closePath(),n.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>t-t/4||this.y<0)&&(this.fadingOut=!0)},setTimeout((function(){a=!1}),50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function y(t,i){return Math.random()*(i-t)+t}h.style.position="fixed",h.style.zIndex=-1,d.append(h),c(),window.addEventListener("resize",c,!1),function(){n=h.getContext("2d");for(var t=0;t<e;t++)r[t]=new u,r[t].reset();f()}(),function t(){"dark"==document.getElementsByTagName("html")[0].getAttribute("data-theme")&&f(),window.requestAnimationFrame(t)}()}dark();]]></content>
+      
+    </entry>
+    
     
     
     <entry>
