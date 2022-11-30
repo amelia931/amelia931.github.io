@@ -39,17 +39,6 @@
     
     
     <entry>
-      <title>文章分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/css/articleRow.css"/>
       <url>/css/articleRow.css</url>
@@ -62,21 +51,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/clockStyle.js"/>
-      <url>/js/clockStyle.js</url>
+      <link href="/js/ClockStyle.js"/>
+      <url>/js/ClockStyle.js</url>
       
-        <content type="html"><![CDATA[function BottomClockStyle(){let e=Math.round(new Date("2022-11-25 00:00:00").getTime()/1e3),t=Math.round((new Date).getTime()/1e3)-e,i=new Array(0,0,0,0,0);var r=function(e){return e>9?e:"0"+e};t>=31536e3&&(i[0]=parseInt(t/31536e3),t%=31536e3),t>=86400&&(i[1]=parseInt(t/86400),t%=86400),t>=3600&&(i[2]=r(parseInt(t/3600)),t%=3600),t>=60&&(i[3]=r(parseInt(t/60)),t%=60),t>0&&(i[4]=r(t)),Number(i[2])<22&&Number(i[2])>7?currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='大佬带带我~'><div id='runtime'>🐟小站已经运行了"+(i[0]?i[0]+" 年 ":"  ")+i[1]+" 天 "+i[2]+" 小时 "+i[3]+" 分钟 "+i[4]+" 秒 </div>":currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>🐡小站已经运行了"+(i[0]?i[0]+"年":"")+i[1]+" 天 "+i[2]+" 小时 "+i[3]+" 分钟 "+i[4]+" 秒 </div>",document.getElementById("workboard").innerHTML=currentTimeHtml}window.onload=setInterval(BottomClockStyle,1200);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
-      
-        <content type="html"><![CDATA[var arr=["#39c5bb","#f14747","#f1a247","#f1ee47","#b347f1","#1edbff","#ed709b","#5636ed"],idx=0;function changeColor(){const e=document.getElementsByTagName("html")[0].getAttribute("data-theme"),t=document.getElementById("site-name"),a=document.getElementById("site-title"),d=document.getElementById("site-subtitle"),o=document.getElementById("post-info"),n="#1e1e1ee0 1px 1px 1px";if("dark"==e){t&&(t.style.textShadow=arr[idx]+" 0 0 15px"),a&&(a.style.textShadow=arr[idx]+" 0 0 15px"),d&&(d.style.textShadow=arr[idx]+" 0 0 10px"),o&&(o.style.textShadow=arr[idx]+" 0 0 5px");try{document.getElementsByClassName("author-info__name")[0].style.textShadow=arr[idx]+" 0 0 12px",document.getElementsByClassName("author-info__description")[0].style.textShadow=arr[idx]+" 0 0 12px"}catch{}8==++idx&&(idx=0)}else{t&&(t.style.textShadow=n),a&&(a.style.textShadow=n),d&&(d.style.textShadow=n),o&&(o.style.textShadow=n);try{document.getElementsByClassName("author-info__name")[0].style.textShadow="",document.getElementsByClassName("author-info__description")[0].style.textShadow=""}catch{}}}window.onload=setInterval(changeColor,1200);]]></content>
+        <content type="html"><![CDATA[function BottomClockStyle(){let e=Math.round(new Date("2022-11-25 00:00:00").getTime()/1e3),t=Math.round((new Date).getTime()/1e3)-e,i=new Array(0,0,0,0,0);var r=function(e){return e>9?e:"0"+e};t>=31536e3&&(i[0]=parseInt(t/31536e3),t%=31536e3),t>=86400&&(i[1]=parseInt(t/86400),t%=86400),t>=3600&&(i[2]=r(parseInt(t/3600)),t%=3600),t>=60&&(i[3]=r(parseInt(t/60)),t%=60),t>0&&(i[4]=r(t)),Number(i[2])<22&&Number(i[2])>7?currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='大佬带带我~'><div id='runtime'>🐟小站已经运行了"+(i[0]?i[0]+" 年 ":"  ")+i[1]+" 天 "+i[2]+" 小时 "+i[3]+" 分钟 "+i[4]+" 秒 </div>":currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>🐡小站已经运行了"+(i[0]?i[0]+"年":"")+i[1]+" 天 "+i[2]+" 小时 "+i[3]+" 分钟 "+i[4]+" 秒 </div>",document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}window.onload=setInterval(BottomClockStyle,1200);]]></content>
       
     </entry>
     
@@ -88,6 +66,28 @@
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark(){window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var t,i,e,n,s=.05,h=document.getElementById("universe"),a=!0,o="226,225,224",r=[],d=document.getElementById("body-wrap");function c(){t=window.innerWidth,i=window.innerHeight,e=.216*t,h.setAttribute("width",t),h.setAttribute("height",i)}function f(){n.clearRect(0,0,t,i);for(var e=r.length,s=0;s<e;s++){var h=r[s];h.move(),h.fadeIn(),h.fadeOut(),h.draw()}}function u(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!a&&m(10),this.x=y(0,t-10),this.y=y(0,i),this.r=y(1.1,2.6),this.dx=y(s,6*s)+(this.comet+1-1)*s*y(50,120)+.1,this.dy=-y(s,6*s)-(this.comet+1-1)*s*y(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=y(.2,1-.4*(this.comet+1-1)),this.do=y(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>t||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(n.beginPath(),this.giant)n.fillStyle="rgba(180,184,240,"+this.opacity+")",n.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){n.fillStyle="rgba("+o+","+this.opacity+")",n.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)n.fillStyle="rgba("+o+","+(this.opacity-this.opacity/20*t)+")",n.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),n.fill()}else n.fillStyle="rgba(226,225,142,"+this.opacity+")",n.rect(this.x,this.y,this.r,this.r);n.closePath(),n.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>t-t/4||this.y<0)&&(this.fadingOut=!0)},setTimeout((function(){a=!1}),50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function y(t,i){return Math.random()*(i-t)+t}h.style.position="fixed",h.style.zIndex=-1,d.append(h),c(),window.addEventListener("resize",c,!1),function(){n=h.getContext("2d");for(var t=0;t<e;t++)r[t]=new u,r[t].reset();f()}(),function t(){"dark"==document.getElementsByTagName("html")[0].getAttribute("data-theme")&&f(),window.requestAnimationFrame(t)}()}dark();]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[var arr=["#39c5bb","#f14747","#f1a247","#f1ee47","#b347f1","#1edbff","#ed709b","#5636ed"],idx=0;function changeColor(){const e=document.getElementsByTagName("html")[0].getAttribute("data-theme"),t=document.getElementById("site-name"),a=document.getElementById("site-title"),o=document.getElementById("site-subtitle"),d=document.getElementById("post-info"),n="#1e1e1ee0 1px 1px 1px";if("dark"==e){t&&(t.style.textShadow=arr[idx]+" 0 0 15px"),a&&(a.style.textShadow=arr[idx]+" 0 0 15px"),o&&(o.style.textShadow=arr[idx]+" 0 0 10px"),d&&(d.style.textShadow=arr[idx]+" 0 0 5px");try{document.getElementsByClassName("author-info__name")[0].style.textShadow=arr[idx]+" 0 0 12px",document.getElementsByClassName("author-info__description")[0].style.textShadow=arr[idx]+" 0 0 12px"}catch{}8==++idx&&(idx=0)}else{t&&(t.style.textShadow=n),a&&(a.style.textShadow=n),o&&(o.style.textShadow=n),d&&(d.style.textShadow=n);try{document.getElementsByClassName("author-info__name")[0].style.textShadow="",document.getElementsByClassName("author-info__description")[0].style.textShadow=""}catch{}}}function BottomClockStyle(){let e=Math.round(new Date("2022-11-25 00:00:00").getTime()/1e3),t=Math.round((new Date).getTime()/1e3)-e,a=new Array(0,0,0,0,0);var o=function(e){return e>9?e:"0"+e};t>=31536e3&&(a[0]=parseInt(t/31536e3),t%=31536e3),t>=86400&&(a[1]=parseInt(t/86400),t%=86400),t>=3600&&(a[2]=o(parseInt(t/3600)),t%=3600),t>=60&&(a[3]=o(parseInt(t/60)),t%=60),t>0&&(a[4]=o(t)),Number(a[2])<22&&Number(a[2])>7?currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='大佬带带我~'><div id='runtime'>🐟小站已经运行了"+(a[0]?a[0]+" 年 ":"  ")+a[1]+" 天 "+a[2]+" 小时 "+a[3]+" 分钟 "+a[4]+" 秒 </div>":currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>🐡小站已经运行了"+(a[0]?a[0]+"年":"")+a[1]+" 天 "+a[2]+" 小时 "+a[3]+" 分钟 "+a[4]+" 秒 </div>",document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}window.onload=setInterval(changeColor,1200);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
