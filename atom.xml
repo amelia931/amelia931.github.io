@@ -6,7 +6,7 @@
   <link href="https://amelia931.github.io/atom.xml" rel="self"/>
   
   <link href="https://amelia931.github.io/"/>
-  <updated>2022-11-29T02:48:12.803Z</updated>
+  <updated>2022-11-30T07:03:34.000Z</updated>
   <id>https://amelia931.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从0搭建一个hexo博客</title>
+    <link href="https://amelia931.github.io/2022/11/30/55340c/"/>
+    <id>https://amelia931.github.io/2022/11/30/55340c/</id>
+    <published>2022-11-30T07:01:50.390Z</published>
+    <updated>2022-11-30T07:03:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="搭建博客">搭建博客</h2><h3 id="安装node">安装node</h3><p>进入<a href="https://nodejs.org/en/download/">NodeJS官网</a>，按照自己电脑选择相应的版本下载，我是使用16.18.0的版本，基本都可以一次性搭建完成~</p><p><img src="C:%5CUsers%5C86183%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221125144442868.png" alt="image-20221125144442868"></p><p>下载好之后进行安装，这里的默认路径是在c盘，如果需要更换到其他下载路径可能会遇见坑哦！设置完路径就一直下一步就可以啦~</p><p>等安装完成后键盘按下win+r，输入cmd后回车，打开的窗口在这里称为<code>cmd终端窗口</code>。通过<code>cmd终端窗口</code>执行<code>node -v</code>命令，看到有node对应的版本信息就是安装成功。如果npm下载较慢，也可以输入命令镜像源指向淘宝</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><h3 id="安装hexo">安装hexo</h3><p>打开<code>cmd终端窗口</code>，输入命令行下载hexo</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>完成以后可以通过以下命令验证是否安装成功，成功的话会显示相应的hexo版本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure><h3 id="初始化博客">初始化博客</h3><p>打开vscode，新建一个文件夹<code>BLOG</code>，开启vscode终端输入以下命令初始化项目</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><p>hexo自动生成的文件如下</p><p>执行<code>hexo s</code>启动项目，可通过http://localhost:4000/查看初始化的博客效果，显示这个页面就说明已经成功了。</p><p><img src="C:%5CUsers%5C86183%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20221125153929594.png" alt="image-20221125153929594"></p>]]></content>
+    
+    
+    <summary type="html">很简单的，从0搭建一个hexo博客</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://amelia931.github.io/categories/hexo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>My New Post</title>
