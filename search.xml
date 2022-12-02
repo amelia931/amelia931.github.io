@@ -58,9 +58,9 @@
     
     
     <entry>
-      <title>文章分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>时间轴</title>
+      <link href="/archives/index.html"/>
+      <url>/archives/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -73,7 +73,29 @@
       <link href="/css/articleRow.css"/>
       <url>/css/articleRow.css</url>
       
-        <content type="html"><![CDATA[[data-theme=dark] #nav .menus_items .menus_item .menus_item_child li a,[data-theme=dark] #nav .site-page,[data-theme=dark] #sidebar #sidebar-menus .menus_items .site-page{text-shadow:0 0 2px var(--theme-color)!important}#footer,#footer::before,#page-header,[data-theme=dark] #footer::before{background:0 0!important}#page-header::before,[data-theme=dark] #page-header::before{background-color:transparent!important}#pagination{width:100%;margin:auto!important;justify-content:center}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}body,html{cursor:url(../cur/normal.cur),auto!important}img{cursor:url(../cur/Escritura.cur),auto!important}a:hover{cursor:url(../cur/Escritura.cur),auto}input:hover{cursor:url(../cur/normal.cur),auto}#footer-wrap a:hover,#nav .site-page:hover,#pagination .page-number:hover,button:hover,i:hover{cursor:url(../cur/ayuda.cur),auto}#nav .menus_items{position:absolute!important;width:fit-content!important;left:50%!important;transform:translateX(-50%)!important}#nav .menus_items .menus_item:hover .menus_item_child{display:flex!important}.menus_items .menus_item:nth-child(2) .menus_item_child{left:-125px}]]></content>
+        <content type="html"><![CDATA[[data-theme=dark] #nav .menus_items .menus_item .menus_item_child li a,[data-theme=dark] #nav .site-page,[data-theme=dark] #sidebar #sidebar-menus .menus_items .site-page{text-shadow:0 0 2px var(--theme-color)!important}#footer,#footer::before,#page-header,[data-theme=dark] #footer::before{background:0 0!important}#page-header::before,[data-theme=dark] #page-header::before{background-color:transparent!important}#pagination{width:100%;margin:auto!important;justify-content:center}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}body,html{cursor:url(../cur/normal.cur),auto!important}img{cursor:url(../cur/Escritura.cur),auto!important}a:hover{cursor:url(../cur/Escritura.cur),auto}input:hover{cursor:url(../cur/normal.cur),auto}#footer-wrap a:hover,#nav .site-page:hover,#pagination .page-number:hover,button:hover,i:hover{cursor:url(../cur/ayuda.cur),auto}#menus{display:flex}#nav .menus_items{position:absolute!important;width:fit-content!important;left:50%!important;transform:translateX(-50%)!important}#nav .menus_items .menus_item:hover .menus_item_child{display:flex!important}.menus_items .menus_item:nth-child(2) .menus_item_child{left:-92px}.menus_items .menus_item:nth-child(3) .menus_item_child{left:-76px}.iconfont{font-family:iconfont!important;font-size:3em;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -92,17 +114,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
-      
-        <content type="html"><![CDATA[var arr=["#39c5bb","#f14747","#f1a247","#f1ee47","#b347f1","#1edbff","#ed709b","#5636ed"],idx=0;function changeColor(){const e=document.getElementsByTagName("html")[0].getAttribute("data-theme"),t=document.getElementById("site-name"),a=document.getElementById("site-title"),o=document.getElementById("site-subtitle"),d=document.getElementById("post-info"),n="#1e1e1ee0 1px 1px 1px";if("dark"==e){t&&(t.style.textShadow=arr[idx]+" 0 0 15px"),a&&(a.style.textShadow=arr[idx]+" 0 0 15px"),o&&(o.style.textShadow=arr[idx]+" 0 0 10px"),d&&(d.style.textShadow=arr[idx]+" 0 0 5px");try{document.getElementsByClassName("author-info__name")[0].style.textShadow=arr[idx]+" 0 0 12px",document.getElementsByClassName("author-info__description")[0].style.textShadow=arr[idx]+" 0 0 12px"}catch{}8==++idx&&(idx=0)}else{t&&(t.style.textShadow=n),a&&(a.style.textShadow=n),o&&(o.style.textShadow=n),d&&(d.style.textShadow=n);try{document.getElementsByClassName("author-info__name")[0].style.textShadow="",document.getElementsByClassName("author-info__description")[0].style.textShadow=""}catch{}}}function BottomClockStyle(){let e=Math.round(new Date("2022-11-25 00:00:00").getTime()/1e3),t=Math.round((new Date).getTime()/1e3)-e,a=new Array(0,0,0,0,0);var o=function(e){return e>9?e:"0"+e};t>=31536e3&&(a[0]=parseInt(t/31536e3),t%=31536e3),t>=86400&&(a[1]=parseInt(t/86400),t%=86400),t>=3600&&(a[2]=o(parseInt(t/3600)),t%=3600),t>=60&&(a[3]=o(parseInt(t/60)),t%=60),t>0&&(a[4]=o(t)),Number(a[2])<22&&Number(a[2])>7?currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='大佬带带我~'><div id='runtime'>🐟小站已经运行了"+(a[0]?a[0]+" 年 ":"  ")+a[1]+" 天 "+a[2]+" 小时 "+a[3]+" 分钟 "+a[4]+" 秒 </div>":currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>🐡小站已经运行了"+(a[0]?a[0]+"年":"")+a[1]+" 天 "+a[2]+" 小时 "+a[3]+" 分钟 "+a[4]+" 秒 </div>",document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}window.onload=setInterval(changeColor,1200);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
@@ -113,11 +124,22 @@
     
     
     <entry>
-      <title></title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[var arr=["#39c5bb","#f14747","#f1a247","#f1ee47","#b347f1","#1edbff","#ed709b","#5636ed"],idx=0;function changeColor(){const e=document.getElementsByTagName("html")[0].getAttribute("data-theme"),t=document.getElementById("site-name"),a=document.getElementById("site-title"),o=document.getElementById("site-subtitle"),d=document.getElementById("post-info"),n="#1e1e1ee0 1px 1px 1px";if("dark"==e){t&&(t.style.textShadow=arr[idx]+" 0 0 15px"),a&&(a.style.textShadow=arr[idx]+" 0 0 15px"),o&&(o.style.textShadow=arr[idx]+" 0 0 10px"),d&&(d.style.textShadow=arr[idx]+" 0 0 5px");try{document.getElementsByClassName("author-info__name")[0].style.textShadow=arr[idx]+" 0 0 12px",document.getElementsByClassName("author-info__description")[0].style.textShadow=arr[idx]+" 0 0 12px"}catch{}8==++idx&&(idx=0)}else{t&&(t.style.textShadow=n),a&&(a.style.textShadow=n),o&&(o.style.textShadow=n),d&&(d.style.textShadow=n);try{document.getElementsByClassName("author-info__name")[0].style.textShadow="",document.getElementsByClassName("author-info__description")[0].style.textShadow=""}catch{}}}function BottomClockStyle(){let e=Math.round(new Date("2022-11-25 00:00:00").getTime()/1e3),t=Math.round((new Date).getTime()/1e3)-e,a=new Array(0,0,0,0,0);var o=function(e){return e>9?e:"0"+e};t>=31536e3&&(a[0]=parseInt(t/31536e3),t%=31536e3),t>=86400&&(a[1]=parseInt(t/86400),t%=86400),t>=3600&&(a[2]=o(parseInt(t/3600)),t%=3600),t>=60&&(a[3]=o(parseInt(t/60)),t%=60),t>0&&(a[4]=o(t)),Number(a[2])<22&&Number(a[2])>7?currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-营业中-6adea8?style=social&logo=cakephp' title='大佬带带我~'><div id='runtime'>🐟小站已经运行了"+(a[0]?a[0]+" 年 ":"  ")+a[1]+" 天 "+a[2]+" 小时 "+a[3]+" 分钟 "+a[4]+" 秒 </div>":currentTimeHtml="<img class='boardsign' src='https://img.shields.io/badge/糖果屋-打烊了-6adea8?style=social&logo=coffeescript' title='这个点了应该去睡觉啦，熬夜对身体不好哦'><div id='runtime'>🐡小站已经运行了"+(a[0]?a[0]+"年":"")+a[1]+" 天 "+a[2]+" 小时 "+a[3]+" 分钟 "+a[4]+" 秒 </div>",document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=currentTimeHtml)}window.onload=setInterval(changeColor,1200);]]></content>
       
     </entry>
     
