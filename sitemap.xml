@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://amelia931.github.io/link/index.html</loc>
+    <loc>https://amelia931.github.io/tags/index.html</loc>
     
     <lastmod>2022-12-02</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://amelia931.github.io/tags/index.html</loc>
+    <loc>https://amelia931.github.io/link/index.html</loc>
     
     <lastmod>2022-12-02</lastmod>
     
@@ -72,6 +72,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://amelia931.github.io/tags/hexo/</loc>
+    <lastmod>2022-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
