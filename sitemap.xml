@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://amelia931.github.io/</loc>
-    <lastmod>2022-12-05</lastmod>
+    <lastmod>2022-12-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,7 +75,7 @@
   
   <url>
     <loc>https://amelia931.github.io/tags/hexo/</loc>
-    <lastmod>2022-12-05</lastmod>
+    <lastmod>2022-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -84,14 +84,14 @@
   
   <url>
     <loc>https://amelia931.github.io/categories/hexo/</loc>
-    <lastmod>2022-12-05</lastmod>
+    <lastmod>2022-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://amelia931.github.io/categories/Hello-World%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3/</loc>
-    <lastmod>2022-12-05</lastmod>
+    <lastmod>2022-12-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
